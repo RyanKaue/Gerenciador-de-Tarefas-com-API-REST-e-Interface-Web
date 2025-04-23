@@ -1,0 +1,53 @@
+ Projeto: Gerenciador de Tarefas com API REST e Interface Web
+🔧 Tecnologias Recomendadas
+Backend: Python (FastAPI ou Flask)
+
+Frontend: HTML + CSS + JavaScript (pode usar React ou outro framework)
+
+Banco de Dados: SQLite ou PostgreSQL
+
+ORM: SQLAlchemy
+
+Autenticação: JWT
+
+Extras: Celery + Redis (para tarefas agendadas), SendGrid (para envio de e-mails)
+
+📋 Funcionalidades Requeridas
+Cadastro e Login de Usuário
+
+Registro com nome, e-mail e senha (criptografada com bcrypt)
+
+Login com verificação e geração de token JWT
+
+Rota protegida: só acessa se estiver autenticado
+
+CRUD de Tarefas
+
+Criar tarefa com: título, descrição, data limite, prioridade e status
+
+Listar todas as tarefas do usuário logado
+
+Atualizar informações de uma tarefa
+
+Deletar tarefa
+
+Sistema de Filtros
+
+Buscar tarefas por status, prioridade, ou data limite
+
+Ordenação por data de criação ou urgência
+
+Painel Web com Interface
+
+Interface intuitiva com tabelas, formulários, filtros
+
+Login no frontend com JWT
+
+Consumo da API REST via JavaScript/React
+
+Notificações por E-mail (opcional)
+
+Enviar e-mail de lembrete 24h antes do prazo da tarefa
+
+Usar Celery para agendar o envio automático
+
